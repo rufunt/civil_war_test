@@ -1,14 +1,5 @@
 ﻿@charset "utf-8";
 
-/*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 2
-   Case Problem 3
-   
-   Civil War History
-   Filename: cw_layout.css
-
-*/
 
 body {
 	margin: 0 auto;
@@ -17,58 +8,58 @@ body {
 	min-width: 640px;
 }
 
-body > header {
+body>header {
 	width: 100%;
 }
 
-body > header > nav {
+body>header>nav {
 	display: table;
 	width: 100%;
 }
 
-body > header > nav > ul {
+body>header>nav>ul {
 	display: table-row;
 }
 
-body > header > nav > ul > li {
+body>header>nav>ul>li {
 	display: table-cell;
 	text-align: center;
 }
 
-body > header > nav > ul > li > a {
+body>header>nav>ul>li>a {
 	display: block;
 	width: 100%;
 }
 
 
-body > nav {
+body>nav {
 	width: 25%;
 	float: left;
 }
 
-body > section {
+body>section {
 	width: 75%;
 	float: left;
 }
 
-body > section > article {
+body>section>article {
 	width: 54%;
 	float: left;
 	margin-left: 4%;
 	margin-right: 4%;
 }
 
-body > section > aside {
+body>section>aside {
 	width: 34%;
 	float: left;
 	margin-right: 4%;
 }
 
-body > section > header > img {
+body>section>header>img {
 	width: 100%;
 }
 
-body > section > aside > img {
+body>section>aside>img {
 	display: block;
 	width: 80%;
 	margin: 0 auto;
@@ -77,6 +68,3 @@ body > section > aside > img {
 footer {
 	clear: both;
 }
-
-	
-
